@@ -86,3 +86,11 @@ export type InvoiceForm = {
   amount: number;
   status: 'pending' | 'paid';
 };
+
+export type NumberOfCustomers = {
+  count: number;
+};
+
+export type NumberOfInvoices = {
+  count: number;
+};
